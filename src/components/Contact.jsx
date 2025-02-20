@@ -100,36 +100,36 @@ const Contact = () => {
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <p className={styles.sectionSubText}>Liên hệ với tôi</p>
+        <h3 className={styles.sectionHeadText}>THANKS!</h3>
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <InputField
-            label="Your Name"
+            label="Tên của bạn"
             name="name"
             value={form.name}
             onChange={handleChange}
-            placeholder="Insert Your name here..."
+            placeholder="Nhập tên ở đây..."
             type="text"
           />
           {nameError && <span className="text-red-500">{nameError}</span>}
 
           <InputField
-            label="Email Address"
+            label="Địa chỉ Email"
             name="email"
             value={form.email}
             onChange={handleChange}
-            placeholder="What's your email address?"
+            placeholder="Địa chỉ email của bạn là gì?"
             type="email"
           />
           {emailError && <span className="text-red-500">{emailError}</span>}
 
           <InputField
-            label="Your Message"
+            label="Nội dung tin nhắn"
             name="message"
             value={form.message}
             onChange={handleChange}
-            placeholder="What you want to say...?"
+            placeholder="Bạn muốn nói gì với tôi...?"
             type="text"
           />
 
@@ -137,7 +137,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Sending..." : "Gửi"}
           </button>
           {confirmation && <p className="text-green-500">{confirmation}</p>}
         </form>

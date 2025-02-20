@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
+    const resumeUrl = '/Le Thanh Son CV(en).pdf';
     window.open(resumeUrl);
   };
 
@@ -42,7 +42,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        <button onClick={toggleResume}>CV Của Tôi</button>
       </li>
     </ul>
   );
@@ -61,10 +61,10 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+           <img src={logo} alt="logo" className="w-16 h-16 rounded-full" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+              SONNU&nbsp;
+              <span className="sm:block hidden">2102</span>
             </p>
           </Link>
           {renderNavLinks(false)}

@@ -54,14 +54,14 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <p className={`${styles.sectionSubText} `}>Công việc của tôi</p>
+        <h2 className={`${styles.sectionHeadText}`}>Dự án</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcase my skills and experience through examples
-          of my work. Each project is briefly described with links to code
-          repositories in it.
+        Các dự án sau đây thể hiện kỹ năng và kinh nghiệm của tôi thông qua các ví dụ
+        về công việc của tôi. Mỗi dự án được mô tả ngắn gọn với các liên kết đến kho lưu trữ mã
+        trong đó.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

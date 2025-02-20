@@ -32,21 +32,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>Giới Thiệu</p>
+        <h2 className={styles.sectionHeadText}>Khái Quát</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
-      </motion.p>
-
+        Là một người học Lập trình Web tại Cao Đẳng FPT Polytechnic và có niềm đam mê
+        đối với việc lập trình. Tôi đang tìm kiếm cho mình một công ty có sự năng động, mới mẻ để học hỏi liên tục nhằm nâng cao kỹ năng để có thể cùng công ty phát triển và đem về lợi nhuận.
+      </motion.p><br></br>
+      
+       <strong className="text-2xl"> | Những kỹ năng chính</strong>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

@@ -16,6 +16,12 @@ import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
+import cyberScreen from "./projects/cyber.png";
+import admin from "./projects/admin.png";
+import sonnusport from "./projects/sn-sport.png";
+
+
+
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -25,10 +31,18 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
+import tanstackrouter from "./tech/tanstackrouter.webp";
+import antd from "./tech/Antd.png";
+import angular from "./tech/angular.png";
+import boostrap from "./tech/boostrap.png";
+import figma from "./tech/figma.png";
+import gitlab from "./tech/gitlab.png";
+
 import threejs from "./tech/threejs.png";
 
 // Import common assets
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -59,4 +73,17 @@ export {
   menu,
   close,
   eduskill,
+  typescript,
+  tanstackrouter,
+  antd,
+  angular,
+  boostrap,
+  figma,
+  gitlab, 
+
+
+
+  cyberScreen,
+  admin,
+  sonnusport,
 };
